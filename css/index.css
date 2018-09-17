@@ -1,0 +1,431 @@
+html {
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.titulo-principal {
+    background-image: linear-gradient(to bottom, #F00, #549 80%, #000);
+}
+
+header {
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-shadow: 3px 3px #000;
+}
+
+body {
+    position: relative;
+    perspective: 2rem;
+    overflow-x: hidden;
+    transform-style: preserve-3d;
+    perspective-origin: 50% 160px;
+}
+
+.blog {
+    background-color: #999;
+    color: #FFF;
+    position: relative;
+}
+
+.blog li a {
+    color: #FCF;
+    margin-left: 2rem;
+}
+
+.blog li {
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.blog .link-blog a:hover {
+    padding: .5rem .5rem .5rem;
+    color: black;
+}
+
+.inicio-post {
+    display: none;
+}
+
+
+/**.blog .inicio-post {*/
+
+.inicio-post {
+    position: absolute;
+    bottom: 6rem;
+    height: 7rem;
+    left: 30%;
+    right: 4rem;
+    color: #000;
+    padding: 1.5rem;
+    background-color: #FFF;
+}
+
+.inicio-post:first-letter {
+    font-size: 3rem;
+}
+
+blockquote:before {
+    content: ' " ';
+    font-size: 10em;
+    position: absolute;
+}
+
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+}
+
+.blog a {
+    position: relative;
+}
+
+.blog a:hover+.inicio-post,
+.blog a:focus+.inicio-post {
+    display: block;
+}
+
+.foto-home {
+    height: 12rem;
+    -webkit-border-radius: 50% 50%;
+    -mos-border-radius: 50% 50%;
+    -o-border-radius: 50% 50%;
+    -ms-border-radius: 50% 50%;
+    border-radius: 50% 50%;
+    width: calc(20%);
+    box-shadow: 0 0 3rem #000;
+}
+
+.profissao {
+    font-size: 1rem;
+    text-transform: none;
+    position: relative;
+    margin-top: .1rem;
+    text-align:  center;
+
+}
+
+.saudacao p {
+    color: #99A;
+    line-height: 1.5;
+}
+
+.saudacao-inicio {
+    color: #889;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 20rem;
+}
+
+.saudacao em {
+    color: #851944;
+    font-size: 4rem;
+    transform: rotate(-10deg) skew(-10deg);
+    display: inline-block;
+}
+
+.saudacao-ultima-linha {
+    display: block;
+    font-size: 3rem;
+    margin-right: 25rem;
+    text-align: right;
+}
+
+.saudacao strong {
+    color: #000;
+}
+
+.saudacao em {
+    color: #851944;
+}
+
+.post-destaque:hover {
+    background-color: #FFF;
+    width: 50rem;
+    display: inline-block;
+    position: relative;
+    padding: .5rem .5rem .5rem;
+    color: black;
+    box-sizing: 0 0 0 #FFF;
+}
+
+.link-blog a:hover {
+    background-color: #FFF;
+    width: 50rem;
+    display: inline-block;
+    position: relative;
+    padding: .5rem .5rem .5rem;
+    color: black;
+}
+
+.botao-index {
+    font-size: 1.25em;
+    background-color: rgb(133, 25, 68);
+    color: rgb(255, 255, 255);
+    padding: .5em;
+    border: .2em solid rgb(0, 0, 0);
+    width: 40ch;
+    margin: 2em 24em 2em;
+    display: inline-block;
+    text-align: center;
+
+
+
+    
+}
+
+.secao-inicio h1 {
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+    margin: 0rem 0rem 0rem 2rem;
+}
+
+.secao-inicio ul {
+    margin: 0 2rem;
+}
+
+.titulo-principal {
+    position: relative;
+}
+
+.trabalhos {
+    width: 100%;
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    box-sizing: border-box;
+
+}
+.trabalhos ul{
+    display: flex;
+    justify-content: center;
+    margin-top:  5rem;
+    border: 10px solid #000;
+}
+       
+.trabalhos li:first-child {
+    order: 1;
+}
+
+.trabalhos li:nth-child(2) {
+    order: 2;
+}
+
+.trabalhos li:last-child {
+    order: 3;
+}
+
+.trabalhos img{
+    width: 100%;
+    display: block;
+}
+
+.image{
+    width: 100%;
+    display:block ;
+}
+
+.secao-inicio h2 {
+    text-shadow: 3px 3px #000;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding-top: 2rem;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #F99;
+}
+
+footer h1 {
+    font-size: 3rem;
+}
+
+main {
+    width: 100%;
+    float: none;
+}
+
+.links {
+    margin: 0 0 2rem 2rem;
+    font-style: italic;
+}
+
+.links a {
+    background-color: red;
+    float: left;
+}
+
+
+/* Posicionamento das Palavras - Inicio*/
+
+.eficiencia {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-20deg) translateZ(-3px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(-20deg) translateZ(-3px) scale(.15);
+}
+
+.boas-praticas {
+    position: absolute;
+    top: 60%;
+    left: 69%;
+    transform: translate(-50%, -50%) rotate(-20deg) translateZ(5px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(-20deg) translateZ(5px) scale(.15);
+    opacity: .2;
+}
+
+.codigo-limpo {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    transform: translate(-50%, -50%) rotate(20deg) translateZ(5px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(20deg) translateZ(5px) scale(.15);
+    opacity: 0.5;
+}
+
+.css3 {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translate(-75%, -50%) rotate(-2deg) translateZ(1px) scale(.15);
+    -webkit-transform: translate(-75%, -50%) rotate(-2deg) translateZ(1px) scale(.15);
+}
+
+.html5 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%, -50%) rotate(2deg) translateZ(-3px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(2deg) translateZ(-3px) scale(.15);
+}
+
+.javascript {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%) rotate(17deg) translateZ(-5px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(17deg) translateZ(-5px) scale(.15);
+    opacity: .5;
+}
+
+.acessibilidade {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%) rotate(-15deg) translateZ(2px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(-15deg) translateZ(2px) scale(.15);
+}
+
+.responsivo {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(-20deg) translateZ(-1px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(-20deg) translateZ(-1px) scale(.15);
+}
+
+.otimizacoes {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    transform: translate(-50%, -50%) rotate(-20deg) translateZ(1px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(-20deg) translateZ(1px) scale(.15);
+    opacity: .4;
+}
+
+.agilidade {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%) rotate(-20deg) translateZ(2px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(-20deg) translateZ(2px) scale(.15);
+}
+
+.design {
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    transform: translate(-50%, -50%) rotate(-2deg) translateZ(-7px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(-2deg) translateZ(-7px) scale(.15);
+}
+
+.palavra-home {
+    color: #D5447E;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    position: absolute;
+    font-size: 1rem;
+}
+
+.palavras-home {
+    transform-style: preserve-3d;
+    perspective: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.palavras-home li {
+    font-size: 400%;
+}
+
+
+/* Posicionamento das Palavras - Fim*/
+
+.banner-twitter {
+    width: 14rem;
+    line-height: 1rem;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #3C1D3D;
+    border: .25rem solid #000;
+    font-size: 1.2rem;
+    font-family: "Open Sans Condensed", sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: 0 0;
+    /*Sempre a alteração que vale é com o '-webkit-' no prefixo  */
+    transform: translate(calc(0.707 * (3em - 100%) + 100%), calc(-0.707 * 3em)) rotate(45deg);
+    -webkit-transform: translate(calc(0.707 * (3em - 100%) + 100%), calc(-0.707 * 3em)) rotate(45deg);
+}
+
+.chamada {
+    width: 40%;
+    background-color: #FFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.com-icone[for="nome"]::after {
+    background-image: url(../img/usuario.png);
+}
+

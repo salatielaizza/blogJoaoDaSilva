@@ -1,0 +1,172 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+h2{
+    clear: both;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 20px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+    text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+        clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+}
+
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github{
+    background-image: url(../img/twitter.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin{
+    background-image: url(../img/linkedin.png);
+}
+
+main{
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site{
+        box-sizing: border-box;    
+        border-bottom: 10px solid black;
+        border-left: 10px solid black;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0px;    
+    right: 0px;
+}
+
+
+
+
+
+blockquote{
+    position: relative;
+}
+
+aside{
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+
+
+
+
+
+
+.navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+.navegacao-site{
+    box-sizing: border-box;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+

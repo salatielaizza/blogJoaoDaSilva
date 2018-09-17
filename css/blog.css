@@ -1,0 +1,38 @@
+.artigo {
+	padding-bottom: 30px;
+	margin-top: 20px;
+}
+.artigo + .artigo {
+	border-top: 1px solid #ccc;
+	background-image: linear-gradient(to right, 
+        rgba(150, 255, 5, 5), 
+        rgba(200, 200, 200, 1), 
+        rgba(200, 200, 200, 0)
+    );
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    /* trocamos "bottom center" por "top center" */
+    background-position: top center;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+    position: relative;
+}
+.artigo p:first-letter{
+    font-size: 3rem;
+    color: #ffcc11;
+}
+blockquote:before{
+    content: ' " ';
+    font-size: 10em;
+    position: absolute;
+}
+[p]{
+	font-style: italic;
+}

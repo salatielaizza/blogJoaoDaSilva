@@ -1,0 +1,92 @@
+.citacao-bio:nth-last-of-type(odd) {
+	background-color: #D9E5E3;
+	margin: 1.25rem 0px 1.25rem 2.5rem;
+	border: 0.625rem solid #C2CCCA;
+	width: 15.625rem;
+	box-sizing: border-box;
+    position: relative;
+    padding: 1rem;
+}
+
+.citacao-bio:nth-last-of-type(even) {
+	background-color: #D9E5E3;
+	margin: 20px 40px 20px 0px;
+	border: 0.625rem solid #C2CCCA;
+	width: 15.625rem;
+	box-sizing: border-box;
+    position: relative;
+    padding: 1rem;
+}
+.citacao-bio:hover{
+    box-shadow: 0 0 10px 999999px rgba(0, 0, 0, .75);
+}
+.citacao-bio:nth-last-of-type(odd):hover,
+.citacao-bio:nth-last-of-type(odd):focus{
+    transform: scale(1.2) rotate(5deg);
+}
+.citacao-bio:nth-last-of-type(even):hover,
+.citacao-bio:nth-last-of-type(even):focus{
+    transform: scale(1.2) rotate(-5deg);
+}
+.position-p-blockquote{
+    position: relative;
+}
+cite{
+    font-style: italic;
+    float: right;
+}
+
+blockquote:nth-of-type(odd){
+    float: right;
+}
+
+blockquote:nth-of-type(even){
+    float: left;
+}
+
+blockquote:nth-of-type(odd):hover{
+    transform: rotate(15deg) scale(1.2);
+    
+}
+blockquote:nth-of-type(even):hover{
+    transform: rotate(-15deg) scale(1.2);
+    text-shadow: 20%; 
+}
+/*
+.tabindex="1":focus {
+    
+}
+*/
+.subtitulo-texto p:first-letter{
+    font-size: 3rem;
+}
+
+blockquote p:focus:before,
+blockquote p:before {
+    content: ' " ' ;
+    color: #3C1D3D;
+    font-size: 5rem;
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    font-family: fantasy serif;
+}
+blockquote p:focus:after,
+blockquote p:after {
+    content: ' " ';
+    color: #3C1D3D;
+    font-size: 5rem;
+    position: absolute;
+    top: 60%;
+    left: 0.8;
+    font-family: fantasy serif;
+}
+
+.container > p::first-letter{
+    font-weight: bold;
+    font-size: 200%;
+    text-shadow: 1px 1px black;
+    line-height: 1;
+    color: #3C1D3D;
+    margin-right: .2ch;
+}

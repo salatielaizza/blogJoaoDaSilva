@@ -1,0 +1,198 @@
+
+/* 1rem = 16px */
+html{
+    font-size: 100%;
+}
+
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+h2{
+    clear: both;
+}
+
+.titulo-principal {
+	font-size: 300%;
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 2rem;
+	border-bottom: 0.7rem solid black;
+    text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin:  1.25rem 0;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+.rodape-pagina {
+	/*background-color: #000;*/
+	color: #F2FFFC;
+    clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+    padding: 1rem;
+    background-size: 25% 100%;
+    background-image: radial-gradient(ellipse at left bottom,
+        rgba(60, 29, 61, 0.8),
+        rgba(60, 29, 61, 0.8) 55%,
+        black 65%,
+        black 70%,
+        transparent 70%);
+    background-repeat: no-repeat;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.container {
+	width: 50rem;
+	margin: auto;
+	padding: 1.8rem 0;
+    margin-bottom: 2rem;
+}
+
+.navegacao-site h1 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 2rem;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: block;
+    text-indent: -99999px;
+}
+.icones-redes-sociais a{
+    position: relative;
+}
+/*legenda dos icones das redes sociais*/
+.icones-redes-sociais a:focus:after,
+.icones-redes-sociais a:hover:after{
+    content: attr(data-legenda);
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    text-indent: 0;
+    width: 250%;
+    background-color: black;
+    color: #FFF;
+    font-size: .6rem;
+}
+/* design na egenda dos icones das redes sociais*/
+.icones-redes-sociais a:hover::before,
+.icones-redes-sociais a:focus::before {
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(.5em) rotate(45deg);
+}
+.github{
+    background-image: url(../img/github.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin{
+    background-image: url(../img/linkedin.png);
+}
+
+main{
+    width: calc(100% - 0.9 * 300px);
+}
+main a:hover{
+    background-color: red;
+}
+main a:focus,
+footer a:hover,
+footer a:focus{
+    background-color: red;
+}
+.minha-foto, .navegacao-site{
+        box-sizing: border-box;    
+        border-bottom: 0.7rem solid black;
+        border-left: 0.7rem solid black;
+}
+nav li:hover{
+    text-transform: uppercase;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0;    
+    right: 0;
+    width: 300px;
+}
+blockquote{
+    position: relative;
+}
+.navegacao-site, .rodape-pagina {
+    padding: 1.2                                                                                                                                                                                                                                                                                    5;
+}
+.navegacao-site{
+    width: calc(0.9 * 300px);
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+footer{
+    clear: both;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+footer p{
+    display: inline-block;
+    text-transform: none
+}
+
+
+
+
